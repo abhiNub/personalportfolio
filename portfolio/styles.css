@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+h1{
+    color: peru;
+}
+/* using id */
+/* #firstid{
+    color: cadetblue;
+} */
+/* using class */
+/* .firstclass{
+    color: blueviolet;
+} */
+.division{
+    
+    background-color: black;
+    background-image: url("photo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    margin: auto;
+}
+.division1{
+    
+    background-color: black;
+    background-image: url("deka.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+#myfont{
+    backdrop-filter: blur(3px);
+    font-family: 'Rajdhani', sans-serif;
+    color: whitesmoke;
+    width: 1000px;
+    /* border: 1px solid gray; */
+    border-radius: 7px;
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-clip: border-box;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    padding: 10px;
+}
+
+#mytext{
+    font-family: 'Rajdhani', sans-serif;
+    color: cadetblue;
+    direction: ltr;
+    /* text-indent: 50px; */
+    text-align: center;
+}
+
+/* #linkcss:link{
+    color: blue;
+}
+#linkcss:visited{
+    color: purple;
+}
+#linkcss:hover{
+    color: green;
+}
+#linkcss:active{
+    color: blueviolet;
+} */
+
+.borders{
+    border-width: 10px;
+    border-style: double;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.boxmodel{
+    width: 100%;
+    height: 20px;
+    background-color: beige;
+}
+#header{
+    font-family: 'Six Caps', sans-serif;
+    width: 100%;
+    
+    background-color: white;
+}
+#button:hover{
+    font-family: 'Rajdhani', sans-serif;
+    background-color: slategrey;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+}
+#button.spotify:hover{
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgb(40, 187, 0);
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+}
+#button.youtube:hover{
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgb(255, 36, 36);
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+}
+#button{
+    font-family: 'Rajdhani', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 22px;
+    text-decoration: none;
+    width: 20%;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+#logo{
+    width: 100%;
+    font-family: 'Six Caps', sans-serif;
+
+    background-color: black;
+    font-size: 50px;
+    letter-spacing: 11px;
+    word-spacing: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+#links nav{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    /* position: fixed;
+    top: 0; */
+}
+
+#songicon{
+    backdrop-filter: blur(3px);
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-size: 28px;
+    text-decoration: none;
+}
+#poster{
+    width: 200px;
+    height: 200px;
+    direction: rtl;
+}
+#details{
+    background: none;
+    align-self: center;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+#songlinks{
+    color: whitesmoke;
+    text-transform: none;
+    font-size: 18px;
+    background: none;
+}
+
+#form{
+    backdrop-filter: blur(3px);
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#name{
+    background: none;
+}
+#message{
+    background: none;
+}
+#email{
+    background: none;
+}
+#submit{
+    font-family: 'Rajdhani', sans-serif;
+    background: none;
+    color: aliceblue;
+}
+
+.entry{
+    resize: none;
+    text-align: left;
+    color: aliceblue;
+    background: none;
+}
